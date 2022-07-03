@@ -68,12 +68,12 @@
       <AdditionalDependencies>D:\Qt\5.15.2\msvc2019_64\lib\Qt5VulkanSupportd.lib;D:\Qt\5.15.2\msvc2019_64\lib\Qt53DRenderd.lib;D:\Qt\5.15.2\msvc2019_64\lib\Qt53DCored.lib;D:\Qt\5.15.2\msvc2019_64\lib\Qt5OpenGLd.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Skeletal-Animation-IK\IK_201569685\iKKKKK\Eigen\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Eigen\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\Skeletal-Animation-IK\IK_201569685\iKKKKK\Eigen\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)\Eigen\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'" Label="Configuration">
